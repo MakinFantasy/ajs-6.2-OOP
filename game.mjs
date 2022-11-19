@@ -13,3 +13,7 @@ swordsman.levelUp();
 bowman.damage(50);
 console.log(swordsman);
 console.log(bowman);
+
+
+const errorTest = new Daemon('Ivan', 'Bowman'); // Второй аргумент добавить можно, только он не учитывается 
+console.log(errorTest);
